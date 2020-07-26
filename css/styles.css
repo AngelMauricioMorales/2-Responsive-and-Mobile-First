@@ -1,0 +1,456 @@
+*  {   
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0; 
+}
+
+/*All sections*/    
+.section  {   
+    border: black solid 1px;    
+    padding: 5%;    
+}
+
+.headers  {   
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color: green;   
+    margin: 5% 0;  
+} 
+
+button  {   
+    border: red solid 0.1em;
+    border-radius: 0.5em; 
+    color: red; 
+    padding: 3%;    
+    margin: 5% 0; 
+}
+
+button:hover {
+    color: white;
+    background-color: red;
+}
+
+ul  {   
+    list-style: none;   
+}
+
+/*Menu*/
+.cero-section  {   
+    background-color: black;    
+    color: white;   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+    -webkit-box-orient: vertical;  
+    -webkit-box-direction: normal;  
+    -ms-flex-direction: column;  
+    flex-direction: column; 
+    text-align: center; 
+    padding-top: 0; 
+}
+
+.cero-section header  {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-grid-column-align: center;
+    justify-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;  
+}
+
+.cero-section figure {   
+    width: 24.5%;   
+}
+
+.cero-section img {   
+    width: 100%; 
+}
+
+.cero-section nav {   width: 74.5%;    
+}
+
+.cero-section ul {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;    
+    -ms-flex-pack: distribute;    
+    justify-content: space-around;  
+}
+
+.cero-section a {   
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+
+a:hover {
+    color: red;
+}
+
+.cero-section div header {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 10% 0;  
+}
+
+.cero-section div h1 {   
+    text-transform: uppercase;
+    color: white;   
+}
+
+.cero-section footer p {   
+    width: 80%; 
+    margin: auto;   
+}
+
+/*Speakers and Crew*/
+.list {   
+    text-align: center; 
+    margin: 5% auto;   
+}   
+
+.fifrst-section cite {   
+    color: red;
+    font-size: 1.5em;   
+}
+
+.fifrst-section a {   
+    text-decoration: none;
+    color: black;   
+}
+
+/*Sponsors*/
+.second-section {   
+    text-align: center; 
+}
+
+.second-section footer h2 {   
+    margin: 5% 0;   
+}
+
+.second-section figure {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+    -ms-flex-wrap: wrap;  
+    flex-wrap: wrap;    
+    -webkit-box-pack: center;    
+    -ms-flex-pack: center;    
+    justify-content: center;    
+}
+
+.second-section p {   
+    margin: 5% 0; 
+}
+
+.second-section h3 {   
+    margin: 5% 0;   
+}
+
+/*Tickets*/
+.third-section {   
+    text-align: center; 
+}
+
+.third-section header p {   
+    margin: 5% 0;  
+    text-align: start;  
+}
+
+.third-section button {   
+    margin: 5%; 
+}
+
+.third-section span {   
+    color: red; 
+}
+
+/*Attendees*/
+.fourth-section header {   
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center; 
+    color: green;   
+}
+
+.fourth-section li {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+    -ms-flex-wrap: wrap;  
+    flex-wrap: wrap;    
+    -webkit-box-pack: space-evenly;    
+    -ms-flex-pack: space-evenly;    
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5% 0; 
+}
+
+.fourth-section p {   
+    width: 75%; 
+}
+
+.fourth-section img {   
+    border-radius: 50%; 
+}
+
+.fourth-section cite {   
+    color: red; 
+}
+
+/*Code of Conduct*/
+.sixth-section {   
+    text-align: center; 
+}
+
+.sixth-section p {   
+    margin: 5% 0;     
+    text-align: start;  
+}
+
+/*Openminds*/
+.seventh-section {   
+    text-align: center;   
+}
+
+.seventh-section div {   
+    margin-top: 5%;  
+}
+
+.seventh-section h3 {   
+    margin-bottom: 5%;  
+}
+
+.seventh-section p {   
+    margin: 5% 0;    
+    text-align: start;  
+}
+
+.seventh-section span {   
+    color: red; 
+}
+
+/*Footer*/
+.footer-section h2 {   
+    text-align: center; 
+    font-size: medium;
+    text-decoration: underline;  
+    color: green;   
+}
+
+.footer-section {   
+    padding-bottom: 0;  
+}
+
+.footer-section li {   
+    margin: 5% 0;   
+}  
+
+.footer-section a {   
+    text-decoration: none;
+    color: red; 
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+form input {   
+    border: green solid 0.1em;  
+    border-radius: 0.2em;    
+    padding: 1%;    
+    margin: 1% 0; 
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Tablet*/
+
+@media (min-width: 1024px) and (max-width: 1366px) {   
+/*General*/    
+.headers {   
+    margin: 0;  
+}
+
+button {   
+    padding: 1%; 
+    margin: 0; 
+}
+
+/*Menu*/
+.cero-section img {   
+    width: 50%; 
+}
+
+/*Speakers and Crew*/
+.fifrst-section ul {   
+    display: -webkit-box;   display: -ms-flexbox;   display: flex;  
+    -ms-flex-wrap: wrap;  
+    flex-wrap: wrap;    
+    -webkit-box-pack: space-evenly;    
+    -ms-flex-pack: space-evenly;    
+    justify-content: space-evenly;  
+}  
+
+.list {   
+    width: 33%; 
+}   
+
+/*Sponsors*/
+.second-section figure {   
+    width: 55%; 
+    margin: auto;   
+}
+
+/*Footer*/
+.footer-section ul:first-child {  
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+    -webkit-box-pack: justify;  
+    -ms-flex-pack: justify;  
+    justify-content: space-between; 
+}
+
+.footer-section {   
+    padding-bottom: 0;  
+}
+    
+.footer-section button {   
+    padding: 3%;    
+}   
+
+.footer-list {  
+    width: 30%;    
+}}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Desktop*/
+
+@media (min-width: 1440px) and (max-width: 1920px) {   
+/*General*/
+button {   
+    padding: 1%; 
+    margin: 0; 
+}
+
+/*Cero section*/    
+.cero-section img {   
+    width: 50%; 
+}
+
+/*Speakers and Crew*/
+.fifrst-section ul {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+    -ms-flex-wrap: wrap;  
+    flex-wrap: wrap;    
+    -webkit-box-pack: space-evenly;    
+    -ms-flex-pack: space-evenly;    
+    justify-content: space-evenly;  
+}  
+
+.list {   
+    width: 33%; 
+}  
+
+/*Sponsors*/
+.second-section figure {   
+    width: 40%; 
+    margin: auto;   
+}
+
+/*Tickets*/
+.third-section ul {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+}
+
+/*Footer*/
+.footer-section ul:first-child {   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;  
+    -webkit-box-pack: justify;  
+    -ms-flex-pack: justify;  
+    justify-content: space-between; 
+}
+
+.footer-section {   
+    padding-bottom: 0;  
+}
+    
+.footer-section button {   
+    padding: 3%;    
+}   
+
+.footer-list {   
+    width: 30%;    
+}}
+
+/*------------------------------------------A borrar despues---------------------------------------------*/
+header {   
+    border: red solid 1px;  
+    padding: 0.5%;  
+}
+
+footer {   
+    border: turquoise solid 1px;    
+    padding: 0.5%;  
+}
+
+h1, h2, h3 {   
+    border: blue solid 1px; 
+}
+
+nav {   
+    border: violet solid 1px;   
+    padding: 0.5%;  
+}
+
+p {   
+    border: orange solid 1px;   
+    padding: 0.5%;  
+}
+
+figure {   
+    border: green solid 1px;    
+}
+
+div {   
+    border: yellow solid 1px;    
+    padding: 0.5%;  
+}
+
+ul {   
+    border: teal solid 1px; 
+    padding: 0.5%;  
+}
+
+img {   
+    border: grey solid 1px; 
+}
+
+li {   
+    border: darkgrey solid 1px; 
+}
