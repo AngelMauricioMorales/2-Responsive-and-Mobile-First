@@ -7,13 +7,14 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/shared.css"/>
     <link rel="stylesheet" type="text/css" href="index.css"/>
+    <script src="index.js" defer></script>
     <title>2da Práctica CSS</title>
   </head>
   <body>
-    <!--Header-->
+<!--Header-->
     <header class="main-header">
       <div class="main-header__toggle-button-container">
-        <button class="main-header__toggle-button">
+        <button id="boton" class="main-header__toggle-button" type="menu" name="nav">
           <span class="main-header__toggle-content"></span>
           <span class="main-header__toggle-content"></span>
           <span class="main-header__toggle-content"></span>
@@ -27,39 +28,50 @@
             class="main-header__sponsor-logo"
           />
         </figure>
-        <nav class="main-header__nav-bar">
-          <ul class="main-header__list-nav">
-            <li class="main-header__list-nav-items">
-              <a href="#speakers" class="main-header__links-nav-bar">
-                <b>SPEAKERS</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#schedule" class="main-header__links-nav-bar">
-                <b>SCHEDULE</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#practicals" class="main-header__links-nav-bar">
-                <b>PRACTICALS</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#tickets" class="main-header__links-nav-bar">
-                <b>TICKETS</b></a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#" class="main-header__links-nav-bar">
-                <b>VIDEOS</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#" class="main-header__links-nav-bar">
-                <b>BLOG</b>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div id="backdrop" class="show-backdrop hide-backdrop">
+          <nav class="main-header__nav-bar">
+            <ul class="main-header__list-nav">
+              <li>
+                <figure class="main-header__container-logo">
+                  <img
+                    src="assets/header-logo.png"
+                    alt="Sponsor logo"
+                    class="main-header__sponsor-logo"
+                  />
+                </figure>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#speakers" class="main-header__links-nav-bar">
+                  <b>SPEAKERS</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#schedule" class="main-header__links-nav-bar">
+                  <b>SCHEDULE</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#practicals" class="main-header__links-nav-bar">
+                  <b>PRACTICALS</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#tickets" class="main-header__links-nav-bar">
+                  <b>TICKETS</b></a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#" class="main-header__links-nav-bar">
+                  <b>VIDEOS</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#" class="main-header__links-nav-bar">
+                  <b>BLOG</b>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <section class="main-header__title-container">
         <h1 class="main-header__title">HOIST THE SAILS!</h1>
@@ -74,7 +86,7 @@
       </section>
     </header>
     <main>
-      <!--Sponsors-->
+<!--Sponsors-->
       <section class="sponsors-section">
         <h2 id="sponsors" class="sponsors-section__title">SPONSORS</h2>
           <figure class="sponsors__logos-container">
@@ -96,7 +108,7 @@
         <button name="sponsors" type="button" class="sponsors-section__button">Sponsors document</button>
       </section>
         <hr />
-      <!--Code-->
+<!--Code-->
       <section class="code-section">
         <h2 id="code" class="code-section__title">CODE OF CONDUCTS</h2>
           <p class="code-section__text">
@@ -109,7 +121,7 @@
         <button name="conducts" type="button" class="code-section__button">Code of Conducts</button>
       </section>
         <hr />
-      <!--Opendminds-->
+<!--Opendminds-->
       <section class="opendmins-section">
         <h2 class="openminds-section__title">BACKED BY OPENMINDS</h2>
           <h3 class="openminds-section__subtitle"><b>ArrrrCamp would not be possible without the full support of Openminds.</b></h3>
@@ -126,14 +138,14 @@
             </p>
       </section>
         <hr />
-      <!--Buy Tickets-->
+<!--Buy Tickets-->
       <section class="buy-tickets-section">
           <h3 class="buy-tickets-section__title"><b>We hope you'll join the ship. See you at the conference!</b></h3>
         <button name="buy-tickets-button" type="button" class="buy-tickets-section__button">Book your ticket here</button>
       </section>
         <hr />
     </main>
-    <!--Footer-->
+<!--Footer-->
     <footer class="footer-section">
       <ul class="footer-section__list">
         <li class="footer-section__list-items">

@@ -1,6 +1,6 @@
 main {
     text-align: center;
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .sponsors-section__button,
@@ -10,6 +10,19 @@ main {
     border: rgba(206, 64, 64, 0.589) solid 2px;
     border-radius: 5px;
     color: rgba(206, 64, 64, 0.589);
+    width: 13rem;
+    margin: auto;
+    padding: 3%;
+}
+
+.sponsors-section__button:hover,
+.code-section__button:hover,
+.openminds-section__button:hover,
+.buy-tickets-section__button:hover {
+    background-color: rgba(206, 64, 64, 0.589);
+    border: red solid 2px;
+    border-radius: 5px;
+    color: white;
     width: 13rem;
     margin: auto;
     padding: 3%;
