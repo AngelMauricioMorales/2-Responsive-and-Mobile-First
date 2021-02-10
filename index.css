@@ -28,17 +28,12 @@ main {
     padding: 3%;
 }
 
+.main-header__title,
 .sponsors-section__title,
 .code-section__title,
 .openminds-section__title {
     color: rgb(82, 117, 82);
     text-decoration: underline;
-}
-
-.main-header__title,
-.sponsors-section__title,
-.code-section__title,
-.openminds-section__title {
     font-weight: lighter;
 }
 
