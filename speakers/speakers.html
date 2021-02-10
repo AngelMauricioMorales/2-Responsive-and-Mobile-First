@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/shared.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/shared.css">
     <link rel="stylesheet" type="text/css" href="speakers.css">
+    <script src="../index.js" defer></script>
     <title>2da Práctica CSS</title>
   </head>
   <body>
+<!--Header-->
     <header class="main-header">
       <div class="main-header__toggle-button-container">
-        <button class="main-header__toggle-button">
+        <button id="boton" class="main-header__toggle-button" type="menu" name="nav">
           <span class="main-header__toggle-content"></span>
           <span class="main-header__toggle-content"></span>
           <span class="main-header__toggle-content"></span>
@@ -21,44 +23,55 @@
       <div class="main-header__menu-container">
         <figure class="main-header__container-logo">
           <img
-            src="assets/header-logo.png"
+            src="../assets/header-logo.png"
             alt="Sponsor logo"
             class="main-header__sponsor-logo"
           />
         </figure>
-        <nav class="main-header__nav-bar">
-          <ul class="main-header__list-nav">
-            <li class="main-header__list-nav-items">
-              <a href="#speakers" class="main-header__links-nav-bar">
-                <b>SPEAKERS</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#schedule" class="main-header__links-nav-bar">
-                <b>SCHEDULE</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#practicals" class="main-header__links-nav-bar">
-                <b>PRACTICALS</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#tickets" class="main-header__links-nav-bar">
-                <b>TICKETS</b></a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#" class="main-header__links-nav-bar">
-                <b>VIDEOS</b>
-              </a>
-            </li>
-            <li class="main-header__list-nav-items">
-              <a href="#" class="main-header__links-nav-bar">
-                <b>BLOG</b>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div id="backdrop" class="show-backdrop hide-backdrop">
+          <nav class="main-header__nav-bar">
+            <ul class="main-header__list-nav">
+              <li>
+                <figure class="main-header__container-logo">
+                  <img
+                    src="../assets/header-logo.png"
+                    alt="Sponsor logo"
+                    class="main-header__sponsor-logo"
+                  />
+                </figure>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="speakers/speakers.html" class="main-header__links-nav-bar">
+                  <b>SPEAKERS</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#schedule" class="main-header__links-nav-bar">
+                  <b>SCHEDULE</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#practicals" class="main-header__links-nav-bar">
+                  <b>PRACTICALS</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#tickets" class="main-header__links-nav-bar">
+                  <b>TICKETS</b></a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#" class="main-header__links-nav-bar">
+                  <b>VIDEOS</b>
+                </a>
+              </li>
+              <li class="main-header__list-nav-items">
+                <a href="#" class="main-header__links-nav-bar">
+                  <b>BLOG</b>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <section class="main-header__title-container">
         <h1 class="main-header__title">HOIST THE SAILS!</h1>
@@ -75,11 +88,11 @@
 <!--Speakers-->
     <main>
       <section class="fifrst-section section">
-          <h2  id="speakers" class="headers">Speakers</h2>
+          <h2 id="speakers" class="headers">Speakers</h2>
         <ul>
           <li class="list">
             <figure>
-                <img src="assets/quico.jpg" alt="speaker1"/>
+                <img src="../assets/quico.jpg" alt="speaker1"/>
             </figure>
             <p>
               <cite>Alexandra Leisse</cite>
@@ -90,7 +103,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker2"/>
+              <img src="../assets/quico.jpg" alt="speaker2"/>
             </figure>
             <p>
               <cite>Andy Pike</cite>
@@ -101,7 +114,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker3"/>
+              <img src="../assets/quico.jpg" alt="speaker3"/>
             </figure>
             <p>
               <cite>Carina C. Zona</cite>
@@ -112,7 +125,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker4"/>
+              <img src="../assets/quico.jpg" alt="speaker4"/>
             </figure>
             <p>
               <cite>Étienne Barrié</cite>
@@ -123,7 +136,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker5"/>
+              <img src="../assets/quico.jpg" alt="speaker5"/>
             </figure>
             <p>
               <cite>Florian Weingarten</cite>
@@ -134,7 +147,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker6"/>
+              <img src="../assets/quico.jpg" alt="speaker6"/>
             </figure>
             <p>
               <cite>Jain Rishi</cite>
@@ -145,7 +158,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker7"/>
+              <img src="../assets/quico.jpg" alt="speaker7"/>
             </figure>
             <p>
               <cite>Jason R. Clark</cite>
@@ -156,7 +169,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker8"/>
+              <img src="../assets/quico.jpg" alt="speaker8"/>
             </figure>
             <p>
               <cite>Kerstin Puschke</cite>
@@ -167,7 +180,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker9"/>
+              <img src="../assets/quico.jpg" alt="speaker9"/>
             </figure>
             <p>
               <cite>Laura Frank</cite>
@@ -178,7 +191,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker10"/>
+              <img src="../assets/quico.jpg" alt="speaker10"/>
             </figure>
             <p>
               <cite>Rachel Myers</cite>
@@ -189,7 +202,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker11"/>
+              <img src="../assets/quico.jpg" alt="speaker11"/>
             </figure>
             <p>
               <cite>Sam Phippen</cite>
@@ -200,7 +213,7 @@
           </li>
           <li class="list">
             <figure>
-              <img src="assets/quico.jpg" alt="speaker12"/>
+              <img src="../assets/quico.jpg" alt="speaker12"/>
             </figure>
             <p>
               <cite>Wasley Beary</cite>
@@ -212,6 +225,7 @@
         </ul>
       </section>
     </main>
+    <hr />
 <!--Footer-->
       <footer class="footer-section">
         <ul class="footer-section__list">
