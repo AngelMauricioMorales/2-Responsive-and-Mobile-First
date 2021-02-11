@@ -1,0 +1,25 @@
+.attendees-section__title {
+    color: rgb(82, 117, 82);
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.attendees-section__list--items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5%;
+}
+
+.attendees-section__text {
+    margin-left: 5%;
+}
+
+.attendees-section__imgs {
+    border-radius: 50%;
+}
+
+.attendees-section__names {
+    color: red;
+}

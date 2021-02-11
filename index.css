@@ -37,16 +37,15 @@ main {
     font-weight: lighter;
 }
 
+.main-header__title {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
 .code-section__text,
 .openminds-section__text {
     text-align: start;
-}
-
-.sponsors-section,
-.code-section,
-.opendmins-section,
-.buy-tickets-section {
-    margin: 25% 0;
 }
 
 .openminds-section__marked-word {
