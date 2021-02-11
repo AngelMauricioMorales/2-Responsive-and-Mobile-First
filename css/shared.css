@@ -46,7 +46,7 @@
 
 /*Footer*/
 .footer-section {
-  padding: 0 10%;
+  padding: 10%;
 }
 
 .footer-section a {
@@ -60,7 +60,7 @@
 .footer-section__titles {
   color: rgba(110, 155, 110, 0.884);
   text-align: center;
-  margin-top: 25%;
+  margin-top: 20%;
   font-size: 1rem;
 }
 

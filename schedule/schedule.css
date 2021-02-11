@@ -1,0 +1,23 @@
+.schedule-section {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.schedule-section__title {
+    color: rgb(82, 117, 82);
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+.schedule-section__list {
+    list-style: none;
+    margin: 10% 0;
+}
+
+.schedule-section__names {
+    color: red;
+}
+
+.schedule-section__links {
+    color: black;
+}
