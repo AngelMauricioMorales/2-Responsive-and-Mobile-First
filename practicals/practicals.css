@@ -2,12 +2,14 @@
     color: rgb(82, 117, 82);
     text-decoration: underline;
     font-weight: lighter;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .attendees-section__list--items {
     display: flex;
     align-items: center;
+    text-align: start;
     list-style: none;
     padding: 5%;
 }
