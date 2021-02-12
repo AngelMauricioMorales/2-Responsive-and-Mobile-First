@@ -1,37 +1,39 @@
 .tickets-section {
     padding: 5%;
+    text-align: center;
 }
 
-.tickets__titles {
+.tickets-section__titles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(82, 117, 82);
     text-decoration: underline;
     font-weight: lighter;
     font-size: 1.5rem;
-    text-align: center;
 }
 
-.tickets__list {
-    text-align: center;
+.tickets-section__list {
     list-style: none;
 }
 
-.tickets__list-items {
-    line-height: 5px;
-    margin: 25% 0;
+.tickets-section__list-items {
+    margin: 20% 0;
 }
 
 .get-tickets__button {
+    background-color: white;
     border: rgba(206, 64, 64, 0.589) solid 2px;
     border-radius: 5px;
     color: rgba(206, 64, 64, 0.589);
     width: 13rem;
     padding: 3%;
-}
-
-.get-tickets {
-    text-align: center;
+    margin: 5%;
 }
 
 .get-tickets__text-iva {
     font-size: small;
+}
+
+.tickets-section__fantastic--text {
+    text-align: start;
+    margin: 5% 0;
 }

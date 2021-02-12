@@ -1,9 +1,10 @@
 .schedule-section {
     text-align: center;
-    padding: 0 5%;
+    padding: 5%;
 }
 
 .schedule-section__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(82, 117, 82);
     text-decoration: underline;
     font-weight: lighter;
@@ -16,6 +17,7 @@
 }
 
 .schedule-section__names {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: red;
 }
 

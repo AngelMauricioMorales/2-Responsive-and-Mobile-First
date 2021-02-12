@@ -30,7 +30,7 @@
         </figure>
         <nav class="main-header__nav-bar">
           <ul class="main-header__list-nav">
-            <li>
+            <li class="main-header__list-nav-items">
               <figure class="main-header__container-logo">
                 <a href="../index.html">
                   <img
@@ -75,7 +75,7 @@
         <div id="backdrop" class="show-backdrop hide-backdrop">
           <nav class="main-header__toggle-nav-bar">
             <ul class="main-header__toogle-list-nav">
-              <li>
+              <li class="main-header__list-nav-items">
                 <figure class="main-header__toogle-container-logo">
                   <a href="../index.html">
                     <img
@@ -134,36 +134,36 @@
 <!--Tickets-->
     <main>
       <section class="tickets-section">
-        <h2 class="tickets__titles">A FANTASTIC VENUE</h2>
-          <p class="tickets__text">
+        <h2 class="tickets-section__titles">A FANTASTIC VENUE</h2>
+          <p class="tickets-section__fantastic--text">
             ArrrrCamp will take place at the <span>Handelsbeurs</span>. This amazing concert hall with big lounge area is located smack in the 
             middle of Ghent's city center within walking distance of the old city parts and with plentry of hotels, restaurants and pubs nearby. 
             Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep.
           </p>   
-        <article class="ticket__prices">
-          <h3 class="tickets__titles">TICKETS</h3>
-            <ul class="tickets__list">
-              <li class="tickets__list-items">
-                <h4 class="tickets__title-price">Early bird</h4>
-                  <p class="tickets__price">
+        <article class="ticket-section__prices">
+          <h3 class="tickets-section__titles">TICKETS</h3>
+            <ul class="tickets-section__list">
+              <li class="tickets-section__list-items">
+                <h4 class="tickets-section__title-price">Early bird</h4>
+                  <p class="tickets-section__price">
                     $160
                   </p> 
-                  <p class="tickets__text">
+                  <p class="tickets-section__text">
                     While supply last
                   </p>
               </li>
-              <li class="tickets__list-items">
-                <h4 class="tickets__title-price">Standard</h4>
-                  <p class="tickets__price">
+              <li class="tickets-section__list-items">
+                <h4 class="tickets-section__title-price">Standard</h4>
+                  <p class="tickets-section__price">
                     $220
                   </p>
               </li>
-              <li class="tickets__list-items">
-                <h4 class="tickets__title-price">Last minute</h4>
-                  <p class="tickets__price">
+              <li class="tickets-section__list-items">
+                <h4 class="tickets-section__title-price">Last minute</h4>
+                  <p class="tickets-section__price">
                     $250
                   </p> 
-                  <p class="tickets__text">
+                  <p class="tickets-section__text">
                     If you decide after September 1st
                   </p> 
               </li>
@@ -187,21 +187,27 @@
     <footer class="footer-section">
       <ul class="footer-section__list">
         <li class="footer-section__list-items">
-          <h5 class="footer-section__titles">Questions</h5><hr />
+          <h4 class="footer-section__titles">Questions</h4><hr />
             <ul class="footer-section__questions-list">
               <li class="footer-section__questions-list-items">
-                E-mail <a href="#">captain@Arrrrcamp.be</a>
+                <p class="footer-section__questions--text">
+                  Twitter <a href="#" class="footer-section__questions--links">@arrrrcamp</a>
+                </p>
               </li>
               <li class="footer-section__questions-list-items">
-                Twitter <a href="#">@arrrrcamp</a>
+                <p class="footer-section__questions--text">
+                  Facebook <a href="#" class="footer-section__questions--links">facebook.com/arrrrcamp</a>
+                </p>
               </li>
               <li class="footer-section__questions-list-items">
-                Facebook <a href="#">facebook.com/arrrrcamp</a>
+                <p class="footer-section__questions--text">
+                  E-mail <a href="#" class="footer-section__questions--links">captain@Arrrrcamp.be</a>
+                </p> 
               </li>
             </ul>
         </li>
         <li class="footer-section__list-items">
-          <h5 class="footer-section__titles">Mailing List</h5><hr />
+          <h4 class="footer-section__titles">Mailing List</h4><hr />
             <form action="login.php" method="POST" class="footer-section__mailing-form">
               <label for="footer-section__mailing-input">
                 <input id="footer-section__mailing-input" type="text" name="email" placeholder="jolly.roger@gmail.com"/>
@@ -210,16 +216,16 @@
           <button name="subscribe" type="submit" class="footer-section__mailing-button">Subscribe</button>
         </li>
         <li class="footer-section__list-items">
-          <h5 class="footer-section__titles">ArrrrCamp</h5><hr />
+          <h4 class="footer-section__titles">ArrrrCamp</h4><hr />
             <ul class="footer-section__arrrrcamp-list">
               <li class="footer-section__arrrrcamp-list-items">
-                <a href="#code">Code of Conduct</a>
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Code of Conduct</a>
               </li>
               <li class="footer-section__arrrrcamp-list-items">
-                <a href="#submit">Submit a proposal</a>
+                <a href="#submit" class="footer-section__arrrrcamp-links">Submit a proposal</a>
               </li>
               <li class="footer-section__arrrrcamp-list-items">
-                <a href="#sponsors">Sponsor document</a>
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Sponsor document</a>
               </li>
             </ul>
         </li>

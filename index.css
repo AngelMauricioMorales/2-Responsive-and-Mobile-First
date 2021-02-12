@@ -1,7 +1,38 @@
+.sponsors-section,
+.code-section,
+.opendmins-section,
+.buy-tickets-section {
+    text-align: center;
+    padding: 5%;
+}
+
+.sponsors-section__title,
+.code-section__title,
+.openminds-section__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(82, 117, 82);
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.buy-tickets-section__title,
+.openminds-section__subtitle,
+.sponsors-section__text {
+    margin: 5% 0;
+}
+
+.sponsor-section__bolder,
+.opendminds-section__bolder,
+.buy-tickets-section__bolder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .sponsors-section__button,
 .code-section__button,
 .openminds-section__button,
 .buy-tickets-section__button {
+    background-color: white;
     border: rgba(206, 64, 64, 0.589) solid 2px;
     border-radius: 5px;
     color: rgba(206, 64, 64, 0.589);
@@ -23,23 +54,9 @@
     padding: 3%;
 }
 
-.main-header__title,
-.sponsors-section__title,
-.code-section__title,
-.openminds-section__title {
-    color: rgb(82, 117, 82);
-    text-decoration: underline;
-    font-weight: lighter;
-    font-size: 1.5rem;
-}
-
-.main-header__title {
-    color: white;
-    text-decoration: none;
-}
-
 .code-section__text,
 .openminds-section__text {
+    margin: 5% 0;
     text-align: start;
 }
 

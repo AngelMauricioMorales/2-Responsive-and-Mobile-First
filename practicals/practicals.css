@@ -1,4 +1,9 @@
+.attendees-section {
+    padding: 5%;
+}
+
 .attendees-section__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(82, 117, 82);
     text-decoration: underline;
     font-weight: lighter;
