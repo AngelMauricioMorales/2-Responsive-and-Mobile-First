@@ -141,3 +141,74 @@
 
 /*---------------------------------------------------------------------------------*/
 
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+  * {
+    font-size: 1.5rem;
+  }
+
+/*Header*/
+  .main-header__toggle-button-container {
+    display: none;
+  }
+
+  .main-header__title {
+    font-size: 3rem;
+  }
+
+  .main-header__nav-bar {
+    display: block;
+    margin: 1% 1% 10% 1%;
+  }
+
+  .main-header__list-nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+
+  .main-header__list-nav-items {
+    line-height: 3rem;
+  }
+
+  .main-header__links-nav-bar {
+    color: white;
+  }
+
+  .main-header__links-nav-bar:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+  }
+
+  .main-header__sponsor-logo {
+    width: 30vw;
+  }
+
+/*Footer*/
+  .footer-section {
+    padding: 3%;
+  }
+
+  .footer-section__list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .footer-section__list-items {
+    width: 30%;
+  }
+
+  .footer-section__titles {
+    margin: 0;
+  }
+
+  .footer-section__questions--text {
+    margin: 5%;
+  }
+
+  .footer-section__mailing-button {
+    width: 16vw;
+  }
+}
