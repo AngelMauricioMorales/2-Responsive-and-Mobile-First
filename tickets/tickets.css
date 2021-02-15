@@ -29,6 +29,11 @@
     margin: 5%;
 }
 
+.get-tickets__button:hover {
+    background-color: rgba(206, 64, 64, 0.589);
+    color: white;
+}
+
 .get-tickets__text-iva {
     font-size: small;
 }
@@ -36,4 +41,20 @@
 .tickets-section__fantastic--text {
     text-align: start;
     margin: 5% 0;
+}
+
+/*--------------------------------------------------------------------*/
+
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .tickets-section__titles {
+        font-size: 2rem;
+    }
+    .get-tickets__button {
+        width: 16rem;
+    }
+
+    .get-tickets__text-iva {
+        font-size: x-large;
+    }    
 }

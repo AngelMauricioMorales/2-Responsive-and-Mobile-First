@@ -13,6 +13,9 @@
 
 .schedule-section__list {
     list-style: none;
+}
+
+.schedule-section__list--items {
     margin-top: 10%;
 }
 
