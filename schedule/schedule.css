@@ -13,7 +13,7 @@
 
 .schedule-section__list {
     list-style: none;
-    margin: 10% 0;
+    margin-top: 10%;
 }
 
 .schedule-section__names {
@@ -23,4 +23,30 @@
 
 .schedule-section__links {
     color: black;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .schedule-section__title {
+        font-size: 2rem;
+    }
+
+    .schedule-section__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .schedule-section__list--items {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .schedule-section__imgs {
+        width: 50%;
+    }
 }
