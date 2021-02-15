@@ -16,7 +16,7 @@
     align-items: center;
     text-align: start;
     list-style: none;
-    padding: 5%;
+    margin: 10% 5%;
 }
 
 .attendees-section__text {
@@ -24,9 +24,23 @@
 }
 
 .attendees-section__imgs {
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .attendees-section__names {
     color: red;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .attendees-section__title {
+        font-size: 2rem;
+    }
+
+    .attendees-section__imgs--container {
+        transform: scale(2, 2);
+        margin-right: 5%;
+    }
 }
