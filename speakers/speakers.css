@@ -12,25 +12,52 @@
 }
 
 .speakers__list {
+    display: flex;
+    flex-direction: column;
     list-style: none;
 }
 
 .spekaers__list--items {
-    margin: 15% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
 }
 
 .speakers__names {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: larger;
+    font-size: 1rem;
     color: indianred;
 }
 
-.speakers__imgs--container {
-    width: 8rem;
-    margin: auto;
-}
+/*--------------------------------------------------------*/
 
-.speakers__imgs {
-    width: 100%;
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .sepakers__title {
+        font-size: 2rem;
+    }
+
+    .speakers__names {
+        font-size: 1.5rem;
+    }
+
+    .speakers__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .spekaers__list--items {
+        width: 30%;
+    }
+
+    .speakers__imgs--container {
+        width: 80%;
+    }
+
+    .speakers__imgs {
+        width: 100%;
+    }
 }
