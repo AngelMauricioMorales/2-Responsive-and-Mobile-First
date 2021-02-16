@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/shared.css">
+    <link rel="stylesheet" type="text/css" href="speakers.css">
+    <script src="../index.js" defer></script>
+    <title>2da Práctica CSS</title>
+  </head>
+  <body>
+<!--Header-->
+    <header class="main-header">
+      <div class="main-header__toggle-button-container">
+        <button id="boton" class="main-header__toggle-button" type="button" name="nav">
+          <span class="main-header__toggle-button-content"></span>
+          <span class="main-header__toggle-button-content"></span>
+          <span class="main-header__toggle-button-content"></span>
+        </button>
+      </div>
+      <div id="backdrop" class="show-backdrop hide-backdrop">
+        <nav class="main-header__toggle-nav-bar">
+          <ul class="main-header__toogle-list-nav">
+            <li>
+              <figure class="main-header__toogle-container-logo">
+                <a href="../index.html">
+                  <img
+                    src="../assets/header-logo.png"
+                    alt="Sponsor logo"
+                    class="main-header__toogle-sponsor-logo"
+                  />
+                </a>
+              </figure>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../speakers/speakers.html" class="main-header__toogle-links-nav-bar">
+                <b>SPEAKERS</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../schedule/schedule.html" class="main-header__toogle-links-nav-bar">
+                <b>SCHEDULE</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../practicals/practicals.html" class="main-header__toogle-links-nav-bar">
+                <b>PRACTICALS</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../tickets/tickets.html" class="main-header__toogle-links-nav-bar">
+                <b>TICKETS</b></a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="#" class="main-header__toogle-links-nav-bar">
+                <b>VIDEOS</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="#" class="main-header__toogle-links-nav-bar">
+                <b>BLOG</b>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+<!--Navigation bar Desktop-->     
+      <div class="main-header__menu-container">
+        <nav class="main-header__nav-bar">
+          <ul class="main-header__list-nav">
+            <li class="main-header__list-nav-items">
+              <a href="../speakers/speakers.html" class="main-header__links-nav-bar">
+                <b>SPEAKERS</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="../schedule/schedule.html" class="main-header__links-nav-bar">
+                <b>SCHEDULE</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="../practicals/practicals.html" class="main-header__links-nav-bar">
+                <b>PRACTICALS</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="../tickets/tickets.html" class="main-header__links-nav-bar">
+                <b>TICKETS</b></a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="#" class="main-header__links-nav-bar">
+                <b>VIDEOS</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="#" class="main-header__links-nav-bar">
+                <b>BLOG</b>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <figure class="main-header__container-logo">
+          <a href="../index.html">
+            <img
+              src="../assets/header-logo.png"
+              alt="Sponsor logo"
+              class="main-header__sponsor-logo"
+            />
+          </a>
+        </figure>
+      </div>  
+      <section class="main-header__title-container">
+        <h1 class="main-header__title">HOIST THE SAILS!</h1>
+          <p class="main-header__text">
+            October 1st & 2nd, 2015 in Ghent Belgium
+          </p>
+          <p class="main-header__text2">
+            ArrrrCamp is a conference for the modern developer interested in Ruby,
+            Rail or the industry in general. Our event will inspire you, help you
+            learn new things, meet new people and hang out with old friends.
+          </p>
+      </section>
+    </header>
+    <main>
+<!--Speakers-->
+      <section class="speakers-section">
+          <h2 class="sepakers__title">SPEAKERS</h2>
+        <ul class="speakers__list">
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker1" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Alexandra Leisse</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Developers, starts designing!</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker2" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Andy Pike</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Opening up to change.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker3" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Carina C. Zona</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Consequences of an Insightful Algorithm.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker4" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Étienne Barrié</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Ruby keyword args and the options hash, from the parser to the virtual machine.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker5" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Florian Weingarten</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">How to stay alive even when others gone down: writing and testing resilient aplications in Ruby.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker6" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Jain Rishi</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Game development - The Ruby way.</q>
+            </p> 
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker7" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Jason R. Clark</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Peeking into Ruby: Tracy Runnnign Code.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker8" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Kerstin Puschke</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Decouple all the things: Asynchronuos messaging keeps it simple.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker9" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Laura Frank</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Developing Ruby. Applications with Docker.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker10" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Rachel Myers</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Stop building services, Episod 1: The Phantom Menace.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker11" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Sam Phippen</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">Extremely Defensive Coding.</q>
+            </p>
+          </li>
+          <li class="spekaers__list--items">
+            <figure class="speakers__imgs--container">
+              <img src="../assets/quico.jpg" alt="speaker12" class="speakers__imgs"/>
+            </figure>
+            <p class="speakers__text">
+              <cite class="speakers__names">Wasley Beary</cite>
+            </p>
+            <p class="speakers__text">
+              <q class="speakers__quotes">API by Design.</q>
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <hr />
+<!--Footer-->
+    <footer class="footer-section">
+      <ul class="footer-section__list">
+        <li class="footer-section__list-items">
+          <h4 class="footer-section__titles">Questions</h4><hr />
+            <ul class="footer-section__questions-list">
+              <li class="footer-section__questions-list-items">
+                <p class="footer-section__questions--text">
+                  Twitter <a href="#" class="footer-section__questions--links">@arrrrcamp</a>
+                </p>
+              </li>
+              <li class="footer-section__questions-list-items">
+                <p class="footer-section__questions--text">
+                  Facebook <a href="#" class="footer-section__questions--links">facebook.com/arrrrcamp</a>
+                </p>
+              </li>
+              <li class="footer-section__questions-list-items">
+                <p class="footer-section__questions--text">
+                  E-mail <a href="#" class="footer-section__questions--links">captain@Arrrrcamp.be</a>
+                </p> 
+              </li>
+            </ul>
+        </li>
+        <li class="footer-section__list-items">
+          <h4 class="footer-section__titles">Mailing List</h4><hr />
+            <form action="login.php" method="POST" class="footer-section__mailing-form">
+              <label for="footer-section__mailing-input">
+                <input id="footer-section__mailing-input" type="text" name="email" placeholder="jolly.roger@gmail.com"/>
+              </label>
+            </form>
+          <button name="subscribe" type="submit" class="footer-section__mailing-button">Subscribe</button>
+        </li>
+        <li class="footer-section__list-items">
+          <h4 class="footer-section__titles">ArrrrCamp</h4><hr />
+            <ul class="footer-section__arrrrcamp-list">
+              <li class="footer-section__arrrrcamp-list-items">
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Code of Conduct</a>
+              </li>
+              <li class="footer-section__arrrrcamp-list-items">
+                <a href="#submit" class="footer-section__arrrrcamp-links">Submit a proposal</a>
+              </li>
+              <li class="footer-section__arrrrcamp-list-items">
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Sponsor document</a>
+              </li>
+            </ul>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="css/shared.css"/>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-    <script src="index.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/shared.css">
+    <link rel="stylesheet" type="text/css" href="tickets.css">
+    <script src="../index.js" defer></script>
     <title>2da Práctica CSS</title>
   </head>
   <body>
@@ -23,11 +23,11 @@
       <div id="backdrop" class="show-backdrop hide-backdrop">
         <nav class="main-header__toggle-nav-bar">
           <ul class="main-header__toogle-list-nav">
-            <li>
+            <li class="main-header__list-nav-items">
               <figure class="main-header__toogle-container-logo">
-                <a href="#">
+                <a href="../index.html">
                   <img
-                    src="assets/header-logo.png"
+                    src="../assets/header-logo.png"
                     alt="Sponsor logo"
                     class="main-header__toogle-sponsor-logo"
                   />
@@ -35,24 +35,23 @@
               </figure>
             </li>
             <li class="main-header__toogle-list-nav-items">
-              <a href="speakers/speakers.html" class="main-header__toogle-links-nav-bar">
+              <a href="../speakers/speakers.html" class="main-header__toogle-links-nav-bar">
                 <b>SPEAKERS</b>
               </a>
             </li>
             <li class="main-header__toogle-list-nav-items">
-              <a href="schedule/schedule.html" class="main-header__toogle-links-nav-bar">
+              <a href="../schedule/schedule.html" class="main-header__toogle-links-nav-bar">
                 <b>SCHEDULE</b>
               </a>
             </li>
             <li class="main-header__toogle-list-nav-items">
-              <a href="practicals/practicals.html" class="main-header__toogle-links-nav-bar">
+              <a href="../practicals/practicals.html" class="main-header__toogle-links-nav-bar">
                 <b>PRACTICALS</b>
               </a>
             </li>
             <li class="main-header__toogle-list-nav-items">
-              <a href="tickets/tickets.html" class="main-header__toogle-links-nav-bar">
-                <b>TICKETS</b>
-              </a>
+              <a href="../tickets/tickets.html" class="main-header__toogle-links-nav-bar">
+                <b>TICKETS</b></a>
             </li>
             <li class="main-header__list-nav-items">
               <a href="#" class="main-header__toogle-links-nav-bar">
@@ -67,29 +66,27 @@
           </ul>
         </nav>
       </div>
-<!--Navigation Bar Desktop-->      
       <div class="main-header__menu-container">
         <nav class="main-header__nav-bar">
           <ul class="main-header__list-nav">
             <li class="main-header__list-nav-items">
-              <a href="speakers/speakers.html" class="main-header__links-nav-bar">
+              <a href="../speakers/speakers.html" class="main-header__links-nav-bar">
                 <b>SPEAKERS</b>
               </a>
             </li>
             <li class="main-header__list-nav-items">
-              <a href="schedule/schedule.html" class="main-header__links-nav-bar">
+              <a href="../schedule/schedule.html" class="main-header__links-nav-bar">
                 <b>SCHEDULE</b>
               </a>
             </li>
             <li class="main-header__list-nav-items">
-              <a href="practicals/practicals.html" class="main-header__links-nav-bar">
+              <a href="../practicals/practicals.html" class="main-header__links-nav-bar">
                 <b>PRACTICALS</b>
               </a>
             </li>
             <li class="main-header__list-nav-items">
-              <a href="tickets/tickets.html" class="main-header__links-nav-bar">
-                <b>TICKETS</b>
-              </a>
+              <a href="../tickets/tickets.html" class="main-header__links-nav-bar">
+                <b>TICKETS</b></a>
             </li>
             <li class="main-header__list-nav-items">
               <a href="#" class="main-header__links-nav-bar">
@@ -104,9 +101,9 @@
           </ul>
         </nav>
         <figure class="main-header__container-logo">
-          <a href="#">
+          <a href="../index.html">
             <img
-              src="assets/header-logo.png"
+              src="../assets/header-logo.png"
               alt="Sponsor logo"
               class="main-header__sponsor-logo"
             />
@@ -125,63 +122,55 @@
           </p>
       </section>
     </header>
+<!--Tickets-->
     <main>
-<!--Sponsors-->
-      <section class="sponsors-section">
-        <h2 id="sponsors" class="sponsors-section__title">SPONSORS</h2>
-          <figure class="sponsors-grid">
-            <img src="assets/Vasco.png" alt="Vasco sponsor 1" class="sponsors-grid__logos vasco"/>
-            <img src="assets/Codeship.png" alt="Codeship sponsor 2" class="sponsors-grid__logos codeship"/>
-            <img src="assets/Locale.png" alt="Locales sponsor 3" class="sponsors-grid__logos locale"/>
-            <img src="assets/Twilio.png" alt="Twilio sponsor 4" class="sponsors-grid__logos twilio"/>
-            <img src="assets/PullReview.png" alt="PullReview sponsor 5" class="sponsors-grid__logos pullreview"/>
-            <img src="assets/Epic.png" alt="Epic sponsor 6" class="sponsors-grid__logos epic"/>
-            <img src="assets/NexUp.png" alt="NexUp sponsor 7" class="sponsors-grid__logos nextup"/>
-          </figure>
-          <p class="sponsors-section__text">
-            <b class="sponsor-section__bolder">Would you like to give us a hand to put together a fantastic
-              event?</b>
+      <section class="tickets-section">
+        <h2 class="tickets-section__titles">A FANTASTIC VENUE</h2>
+          <p class="tickets-section__fantastic--text">
+            ArrrrCamp will take place at the <mark class="tickets-section__highlighted--word">Handelsbeurs</mark>. This amazing concert hall with big lounge area is located smack in the 
+            middle of Ghent's city center within walking distance of the old city parts and with plentry of hotels, restaurants and pubs nearby. 
+            Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep.
+          </p>   
+        <article class="ticket-section__prices">
+          <h3 class="tickets-section__titles">TICKETS</h3>
+            <ul class="tickets-section__list">
+              <li class="tickets-section__list-items">
+                <h4 class="tickets-section__title-price">Early bird</h4>
+                  <p class="tickets-section__price">
+                    $160
+                  </p> 
+                  <p class="tickets-section__text">
+                    While supply last
+                  </p>
+              </li>
+              <li class="tickets-section__list-items">
+                <h4 class="tickets-section__title-price">Standard</h4>
+                  <p class="tickets-section__price">
+                    $220
+                  </p>
+              </li>
+              <li class="tickets-section__list-items">
+                <h4 class="tickets-section__title-price">Last minute</h4>
+                  <p class="tickets-section__price">
+                    $250
+                  </p> 
+                  <p class="tickets-section__text">
+                    If you decide after September 1st
+                  </p> 
+              </li>
+          </ul>
+        </article>
+        <div class="get-tickets">
+          <p class="get-tickets__text-iva">
+            Tickets prices are exclusive 21% VAT.
           </p>
-          <p class="sponsors-section__text">
-            Take a look at our sponsors document to see how can you help.
+            <button name="tickets" type="button" class="get-tickets__button">
+              Get your ticket now
+            </button>
+          <p class="get-tickets__text">
+            Not convinced yet? Take a look what our attendees and speakers had to say about the conference.
           </p>
-        <button name="sponsors" type="button" class="sponsors-section__button">Sponsors document</button>
-      </section>
-        <hr />
-<!--Code-->
-      <section class="code-section">
-        <h2 id="code" class="code-section__title">CODE OF CONDUCTS</h2>
-          <p class="code-section__text">
-            We dedicate ourselves to making everyone feel welcome and at home,
-            both during the conference adn at the fringe events. Our Code of
-            Conduct offers some guidelines to ensure this for both attendees and
-            speakers. The crew is available to anyone who is anything less than
-            completly comfortable at our events.
-          </p>
-        <button name="conducts" type="button" class="code-section__button">Code of Conducts</button>
-      </section>
-        <hr />
-<!--Opendminds-->
-      <section class="opendmins-section">
-        <h2 class="openminds-section__title">BACKED BY OPENMINDS</h2>
-          <h3 class="openminds-section__subtitle"><b class="opendminds-section__bolder">ArrrrCamp would not be possible without the full support of Openminds.</b></h3>
-            <p class="openminds-section__text">
-              <mark class="openminds-section__marked-word">Openminds</mark> offers tailor-made B2B hosting solutions
-              based on shared, cloud or dedicated hosting. We can help you with
-              domain registrations, consultancy, benchmarking and multidatacenter
-              solutions.
-            </p>
-            <p class="openminds-section__text">
-              In our fully managed solutions we combine an individual and personal
-              approach with the necessary knowledge. Our clients can rely on a
-              strong support team available 24/7.
-            </p>
-      </section>
-        <hr />
-<!--Buy Tickets-->
-      <section class="buy-tickets-section">
-          <h3 class="buy-tickets-section__title"><b class="buy-tickets-section__bolder">We hope you'll join the ship. See you at the conference!</b></h3>
-        <button name="buy-tickets-button" type="button" class="buy-tickets-section__button">Book your ticket here</button>
+        </div>
       </section>
     </main>
     <hr />
@@ -221,13 +210,13 @@
           <h4 class="footer-section__titles">ArrrrCamp</h4><hr />
             <ul class="footer-section__arrrrcamp-list">
               <li class="footer-section__arrrrcamp-list-items">
-                <a href="#code" class="footer-section__arrrrcamp-links">Code of Conduct</a>
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Code of Conduct</a>
               </li>
               <li class="footer-section__arrrrcamp-list-items">
                 <a href="#submit" class="footer-section__arrrrcamp-links">Submit a proposal</a>
               </li>
               <li class="footer-section__arrrrcamp-list-items">
-                <a href="#sponsors" class="footer-section__arrrrcamp-links">Sponsor document</a>
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Sponsor document</a>
               </li>
             </ul>
         </li>

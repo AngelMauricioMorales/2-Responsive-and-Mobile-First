@@ -1,0 +1,194 @@
+.sponsors-section,
+.code-section,
+.opendmins-section,
+.buy-tickets-section {
+    text-align: center;
+    padding: 5%;
+}
+
+.sponsors-section__title,
+.code-section__title,
+.openminds-section__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(82, 117, 82);
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.buy-tickets-section__title,
+.openminds-section__subtitle,
+.sponsors-section__text {
+    margin: 5% 0;
+}
+
+.sponsor-section__bolder,
+.opendminds-section__bolder,
+.buy-tickets-section__bolder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sponsors-section__button,
+.code-section__button,
+.openminds-section__button,
+.buy-tickets-section__button {
+    background-color: white;
+    border: rgba(206, 64, 64, 0.589) solid 2px;
+    border-radius: 5px;
+    color: rgba(206, 64, 64, 0.589);
+    width: 13rem;
+    margin: auto;
+    padding: 3%;
+}
+
+.sponsors-section__button:hover,
+.code-section__button:hover,
+.openminds-section__button:hover,
+.buy-tickets-section__button:hover {
+    background-color: rgba(206, 64, 64, 0.589);
+    border: red solid 2px;
+    border-radius: 5px;
+    color: white;
+    width: 13rem;
+    margin: auto;
+    padding: 3%;
+}
+
+.code-section__text,
+.openminds-section__text {
+    margin: 5% 0;
+    text-align: start;
+}
+
+.openminds-section__marked-word {
+    background-color: transparent;
+    color: red;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    grid-template-rows: repeat(6, 16.666%);
+    grid-template-areas: "vasco vasco vasco"
+                         "codeship codeship codeship"
+                         "space0 locale space1" 
+                         "twilio twilio twilio"
+                         "pullreview space2 epic" 
+                         "space3 nextup space4";
+}
+
+.vasco {
+    grid-area: vasco;
+    margin: auto;
+}
+
+.codeship {
+    grid-area: codeship;
+    margin: auto;
+}
+
+.locale {
+    grid-area: locale;
+    height: 100%;
+    margin: auto;
+}
+
+.twilio {
+    grid-area: twilio;
+    margin: auto;
+}
+
+.pullreview {
+    grid-area: pullreview;
+    margin: auto;
+}
+
+.epic {
+    grid-area: epic;
+    margin: auto;
+}
+
+.nextup {
+    grid-area: nextup;
+    margin: auto;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .sponsors-section__title,
+    .code-section__title,
+    .openminds-section__title {
+        font-size: 2rem;
+    }
+
+    .sponsors-section__button,
+    .code-section__button,
+    .openminds-section__button,
+    .buy-tickets-section__button {
+        width: 17rem;
+    }
+
+    .sponsors-section__button:hover,
+    .code-section__button:hover,
+    .openminds-section__button:hover,
+    .buy-tickets-section__button:hover {
+        width: 17rem;
+    }
+
+    .sponsors-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 33.333%);
+        grid-template-rows: repeat(4, 25%);
+        grid-template-areas: "vasco vasco vasco"
+                             "codeship codeship codeship"
+                             "locale twilio twilio" 
+                             "pullreview epic nextup";
+    }
+
+    .sponsors-grid__logos {
+        width: 100%;
+    }
+
+    .pullreview,
+    .epic,
+    .nextup {
+        width: 50%;
+    }
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .sponsors-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: repeat(3, 33.333%);
+        grid-template-areas: "vasco vasco space codeship codeship"
+                             "space0 locale twilio twilio space1" 
+                             "space2 pullreview epic nextup space3";
+    }
+
+    .sponsors-section__button,
+    .code-section__button,
+    .openminds-section__button,
+    .buy-tickets-section__button {
+        width: 11rem;
+        padding: 2%;
+    }
+
+    .sponsors-section__button:hover,
+    .code-section__button:hover,
+    .openminds-section__button:hover,
+    .buy-tickets-section__button:hover {
+        width: 11rem;
+        padding: 2%;
+    }
+}

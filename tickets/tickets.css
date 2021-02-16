@@ -1,0 +1,90 @@
+.tickets-section {
+    padding: 5%;
+    text-align: center;
+}
+
+.tickets-section__titles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(82, 117, 82);
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.tickets-section__list {
+    list-style: none;
+}
+
+.tickets-section__list-items {
+    margin: 20% 0;
+}
+
+.get-tickets__button {
+    background-color: white;
+    border: rgba(206, 64, 64, 0.589) solid 2px;
+    border-radius: 5px;
+    color: rgba(206, 64, 64, 0.589);
+    width: 13rem;
+    padding: 3%;
+    margin: 5%;
+}
+
+.get-tickets__button:hover {
+    background-color: rgba(206, 64, 64, 0.589);
+    color: white;
+}
+
+.get-tickets__text-iva {
+    font-size: small;
+}
+
+.tickets-section__fantastic--text {
+    text-align: start;
+    margin: 5% 0;
+}
+
+.tickets-section__highlighted--word {
+    background-color: transparent;
+    color: red;
+}
+
+/*--------------------------------------------------------------------*/
+
+/*Tablet*/
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .tickets-section__titles {
+        font-size: 2rem;
+    }
+    .get-tickets__button {
+        width: 16rem;
+    }
+
+    .get-tickets__text-iva {
+        font-size: x-large;
+    }    
+}
+
+/*---------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .get-tickets__button{
+        width: 11rem;
+        padding: 2%;
+    }
+
+    .tickets-section__list {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .tickets-section__list-items {
+        margin: 10%;
+    }
+}

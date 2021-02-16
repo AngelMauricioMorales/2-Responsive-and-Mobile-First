@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/shared.css"/>
+    <link rel="stylesheet" type="text/css" href="practicals.css"/>
+    <script src="../index.js" defer></script>
+    <title>2da Práctica CSS</title>
+  </head>
+  <body>
+<!--Header-->
+    <header class="main-header">
+      <div class="main-header__toggle-button-container">
+        <button id="boton" class="main-header__toggle-button" type="button" name="nav">
+          <span class="main-header__toggle-button-content"></span>
+          <span class="main-header__toggle-button-content"></span>
+          <span class="main-header__toggle-button-content"></span>
+        </button>
+      </div>
+      <div id="backdrop" class="show-backdrop hide-backdrop">
+        <nav class="main-header__toggle-nav-bar">
+          <ul class="main-header__toogle-list-nav">
+            <li class="main-header__toogle-list-nav-items">
+              <figure class="main-header__toogle-container-logo">
+                <a href="../index.html">
+                  <img
+                    src="../assets/header-logo.png"
+                    alt="Sponsor logo"
+                    class="main-header__toogle-sponsor-logo"
+                  />
+                </a>
+              </figure>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../speakers/speakers.html" class="main-header__toogle-links-nav-bar">
+                <b>SPEAKERS</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../schedule/schedule.html" class="main-header__toogle-links-nav-bar">
+                <b>SCHEDULE</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../practicals/practicals.html" class="main-header__toogle-links-nav-bar">
+                <b>PRACTICALS</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="../tickets/tickets.html" class="main-header__toogle-links-nav-bar">
+                <b>TICKETS</b></a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="#" class="main-header__toogle-links-nav-bar">
+                <b>VIDEOS</b>
+              </a>
+            </li>
+            <li class="main-header__toogle-list-nav-items">
+              <a href="#" class="main-header__toogle-links-nav-bar">
+                <b>BLOG</b>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__menu-container">
+        <nav class="main-header__nav-bar">
+          <ul class="main-header__list-nav">
+            <li class="main-header__list-nav-items">
+              <a href="../speakers/speakers.html" class="main-header__links-nav-bar">
+                <b>SPEAKERS</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="../schedule/schedule.html" class="main-header__links-nav-bar">
+                <b>SCHEDULE</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="../practicals/practicals.html" class="main-header__links-nav-bar">
+                <b>PRACTICALS</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="../tickets/tickets.html" class="main-header__links-nav-bar">
+                <b>TICKETS</b></a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="#" class="main-header__links-nav-bar">
+                <b>VIDEOS</b>
+              </a>
+            </li>
+            <li class="main-header__list-nav-items">
+              <a href="#" class="main-header__links-nav-bar">
+                <b>BLOG</b>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <figure class="main-header__container-logo">
+          <a href="../index.html">
+            <img
+              src="../assets/header-logo.png"
+              alt="Sponsor logo"
+              class="main-header__sponsor-logo"
+            />
+          </a>
+        </figure>
+      </div>
+      <section class="main-header__title-container">
+        <h1 class="main-header__title">HOIST THE SAILS!</h1>
+          <p class="main-header__text">
+            October 1st & 2nd, 2015 in Ghent Belgium
+          </p>
+          <p class="main-header__text2">
+            ArrrrCamp is a conference for the modern developer interested in Ruby,
+            Rail or the industry in general. Our event will inspire you, help you
+            learn new things, meet new people and hang out with old friends.
+          </p>
+      </section>
+    </header>
+    <main>
+<!--Practicals-->
+      <section class="attendees-section">
+        <h2 class="attendees-section__title">WHAT ATTENDEES SAY</h2>
+          <ul class="attendees-section__list">
+            <li class="attendees-section__list--items">
+              <figure class="attendees-section__imgs--container">
+                <img src="../assets/quico.jpg" alt="Practical 1" class="attendees-section__imgs"/>
+              </figure>
+              <p class="attendees-section__text">
+                <q class="attendes-section__quotes">
+                  I have a boatload of fond memories - beatiful city, delicious
+                  mojitos, great talks, lovely parties, and service
+                  above-and-beyond, well, everything! - 
+                  <cite class="attendees-section__names">Katrina Owen</cite>
+                </q>
+              </p>
+            </li>
+            <li class="attendees-section__list--items">
+              <figure class="attendees-section__imgs--container">
+                <img src="../assets/quico.jpg" alt="Practical 2" class="attendees-section__imgs"/>
+              </figure>
+              <p class="attendees-section__text">
+                <q class="attendes-section__quotes">
+                  The organizers of ArrrrCamp put so much thought and heart into
+                  the event that it's always amazing. I've been twice now have met
+                  intelligent people, laughed hard, and enjoyed some fantastic food
+                  and beer. - 
+                  <cite class="attendees-section__names">Anthony Eden</cite>
+                </q>
+              </p>
+            </li>
+            <li class="attendees-section__list--items">
+              <figure class="attendees-section__imgs--container">
+                <img src="../assets/quico.jpg" alt="Practical 3" class="attendees-section__imgs"/>
+              </figure>
+              <p class="attendees-section__text">
+                <q class="attendes-section__quotes">
+                  ArrrrCampis an excellent conference. I really had a wonderful
+                  time. And with single track, you're missin out on a better talk
+                  somewhere else! - 
+                  <cite class="attendees-section__names">KWu</cite>
+                </q>
+              </p>
+            </li>
+            <li class="attendees-section__list--items">
+              <figure class="attendees-section__imgs--container">
+                <img src="../assets/quico.jpg" alt="Practical 4" class="attendees-section__imgs"/>
+              </figure>
+              <p class="attendees-section__text">
+                <q class="attendes-section__quotes">
+                  Speaking at ArrrrCamp was a wonderful experience! the conference
+                  harbored a great and engaging crowd, interesting and energetic
+                  speakers and a relaxing enviroment to discuss a wide range of
+                  topics. I met amazing and inspiring people and learned a lot. I
+                  would wholehartedly recommend attending ArrrrCamp. -
+                  <cite class="attendees-section__names">Daan van Berkel</cite>
+                </q>
+              </p>
+            </li>
+            <li class="attendees-section__list--items">
+              <figure class="attendees-section__imgs--container">
+                <img src="../assets/quico.jpg" alt="Practical 5" class="attendees-section__imgs"/>
+              </figure>
+              <p class="attendees-section__text">
+                <q class="attendes-section__quotes">
+                  ArrrrCamp is a prime example of what I love about Ruby
+                  conference: super dedicated organisers, careful and thoughful talk
+                  selection, laid back armosphere - and the lovely small size, wich
+                  means getting to know almost everyone and having a chat with all
+                  of the speakers. Also: those mojitos... -
+                  <cite class="attendees-section__names">Piotr Szotkowski</cite>
+                </q>
+              </p>
+            </li>
+            <li class="attendees-section__list--items">
+              <figure class="attendees-section__imgs--container">
+                <img src="../assets/quico.jpg" alt="Practical 6" class="attendees-section__imgs"/>
+              </figure>
+              <p class="attendees-section__text">
+                <q class="attendes-section__quotes">
+                  I've been to ArrrrCamp 3 times now and it is absolutely one of my
+                  favourite coferences. The organisers care deeply about the whole
+                  conference, speakers and attendees. This leads to top content and
+                  a great experience for everyone. And whit the parties, activities
+                  and even the long breaks between talks there is plenty of time to
+                  meet and become part of the fantastci community that has grown up
+                  around the event. - 
+                  <cite class="attendees-section__names">Nash</cite>
+                </q>
+              </p>
+            </li>
+          </ul>
+      </section>
+    </main>
+    <hr />
+<!--Footer-->
+    <footer class="footer-section">
+      <ul class="footer-section__list">
+        <li class="footer-section__list-items">
+          <h4 class="footer-section__titles">Questions</h4><hr />
+            <ul class="footer-section__questions-list">
+              <li class="footer-section__questions-list-items">
+                <p class="footer-section__questions--text">
+                  Twitter <a href="#" class="footer-section__questions--links">@arrrrcamp</a>
+                </p>
+              </li>
+              <li class="footer-section__questions-list-items">
+                <p class="footer-section__questions--text">
+                  Facebook <a href="#" class="footer-section__questions--links">facebook.com/arrrrcamp</a>
+                </p>
+              </li>
+              <li class="footer-section__questions-list-items">
+                <p class="footer-section__questions--text">
+                  E-mail <a href="#" class="footer-section__questions--links">captain@Arrrrcamp.be</a>
+                </p> 
+              </li>
+            </ul>
+        </li>
+        <li class="footer-section__list-items">
+          <h4 class="footer-section__titles">Mailing List</h4><hr />
+            <form action="login.php" method="POST" class="footer-section__mailing-form">
+              <label for="footer-section__mailing-input">
+                <input id="footer-section__mailing-input" type="text" name="email" placeholder="jolly.roger@gmail.com"/>
+              </label>
+            </form>
+          <button name="subscribe" type="submit" class="footer-section__mailing-button">Subscribe</button>
+        </li>
+        <li class="footer-section__list-items">
+          <h4 class="footer-section__titles">ArrrrCamp</h4><hr />
+            <ul class="footer-section__arrrrcamp-list">
+              <li class="footer-section__arrrrcamp-list-items">
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Code of Conduct</a>
+              </li>
+              <li class="footer-section__arrrrcamp-list-items">
+                <a href="#submit" class="footer-section__arrrrcamp-links">Submit a proposal</a>
+              </li>
+              <li class="footer-section__arrrrcamp-list-items">
+                <a href="../index.html" class="footer-section__arrrrcamp-links">Sponsor document</a>
+              </li>
+            </ul>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
