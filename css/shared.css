@@ -81,6 +81,11 @@
   padding: 3%;
 }
 
+.footer-section__questions--links:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 /*Toggle*/
 .main-header__toggle-button {
   display: flex;
@@ -210,5 +215,71 @@
 
   .footer-section__mailing-button {
     width: 16vw;
+  }
+}
+
+/*---------------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+
+/*Header*/
+  .main-header__toggle-button-container {
+    display: none;
+  }
+
+  .main-header__menu-container {
+    display: flex;
+    margin: 0 auto 10% auto;
+    align-items: center;
+  }
+
+  .main-header__nav-bar {
+    display: block;
+    order: 2;
+  }
+
+  .main-header__list-nav {
+    display: flex;
+    list-style: none;
+  }
+
+  .main-header__list-nav-items {
+    margin: 0 2%;
+  }
+
+  .main-header__links-nav-bar {
+    color: white;
+  }
+
+  .main-header__text2 {
+    width: 40%;
+  }
+
+/*Footer*/
+  .footer-section {
+    padding: 3%;
+  }
+
+  .footer-section__list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .footer-section__list-items {
+    width: 30%;
+  }
+
+  .footer-section__titles {
+    margin: 0;
+  }
+
+  .footer-section__questions--text {
+    margin: 5%;
+  }
+
+  .footer-section__mailing-button {
+    width: 10vw;
   }
 }
