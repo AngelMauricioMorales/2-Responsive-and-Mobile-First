@@ -61,3 +61,31 @@
         width: 100%;
     }
 }
+
+/*--------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .speakers__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .spekaers__list--items {
+        width: 30%;
+    }
+
+    .speakers__imgs--container {
+        width: 80%;
+    }
+
+    .speakers__imgs {
+        width: 100%;
+    }
+}

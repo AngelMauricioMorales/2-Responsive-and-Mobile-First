@@ -53,3 +53,27 @@
         width: 50%;
     }
 }
+
+/*----------------------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .schedule-section__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .schedule-section__list--items {
+        width: 30%;
+    }
+
+    .schedule-section__imgs {
+        width: 70%;
+    }
+}

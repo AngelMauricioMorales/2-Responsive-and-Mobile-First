@@ -218,7 +218,7 @@
   }
 }
 
-/*---------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
 
 /*Desktop*/
 @media (min-width: 1440px) {
@@ -259,6 +259,8 @@
 /*Footer*/
   .footer-section {
     padding: 3%;
+    width: 50%;
+    margin: auto;
   }
 
   .footer-section__list {
@@ -280,6 +282,6 @@
   }
 
   .footer-section__mailing-button {
-    width: 10vw;
+    width: 6vw;
   }
 }

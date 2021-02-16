@@ -89,8 +89,8 @@
 
 .locale {
     grid-area: locale;
-    margin: auto;
     height: 100%;
+    margin: auto;
 }
 
 .twilio {
@@ -130,6 +130,13 @@
         width: 17rem;
     }
 
+    .sponsors-section__button:hover,
+    .code-section__button:hover,
+    .openminds-section__button:hover,
+    .buy-tickets-section__button:hover {
+        width: 17rem;
+    }
+
     .sponsors-grid {
         display: grid;
         grid-template-columns: repeat(3, 33.333%);
@@ -155,5 +162,33 @@
 
 /*Desktop*/
 @media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
 
+    .sponsors-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: repeat(3, 33.333%);
+        grid-template-areas: "vasco vasco space codeship codeship"
+                             "space0 locale twilio twilio space1" 
+                             "space2 pullreview epic nextup space3";
+    }
+
+    .sponsors-section__button,
+    .code-section__button,
+    .openminds-section__button,
+    .buy-tickets-section__button {
+        width: 11rem;
+        padding: 2%;
+    }
+
+    .sponsors-section__button:hover,
+    .code-section__button:hover,
+    .openminds-section__button:hover,
+    .buy-tickets-section__button:hover {
+        width: 11rem;
+        padding: 2%;
+    }
 }

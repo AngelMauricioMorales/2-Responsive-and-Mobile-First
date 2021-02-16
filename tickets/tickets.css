@@ -43,6 +43,11 @@
     margin: 5% 0;
 }
 
+.tickets-section__highlighted--word {
+    background-color: transparent;
+    color: red;
+}
+
 /*--------------------------------------------------------------------*/
 
 /*Tablet*/
@@ -57,4 +62,29 @@
     .get-tickets__text-iva {
         font-size: x-large;
     }    
+}
+
+/*---------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .get-tickets__button{
+        width: 11rem;
+        padding: 2%;
+    }
+
+    .tickets-section__list {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .tickets-section__list-items {
+        margin: 10%;
+    }
 }

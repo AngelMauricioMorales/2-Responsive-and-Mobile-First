@@ -44,3 +44,17 @@
         margin-right: 5%;
     }
 }
+
+/*---------------------------------------------------------------------*/
+
+/*Desktop*/
+@media (min-width: 1440px) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+
+    .attendees-section__list--items {
+        margin: 5% 0;
+    }
+}
