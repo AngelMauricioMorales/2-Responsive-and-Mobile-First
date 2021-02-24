@@ -1,79 +1,93 @@
 .schedule-section {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .schedule-section__title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(82, 117, 82);
-    text-decoration: underline;
-    font-weight: lighter;
-    font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(82, 117, 82);
+  text-decoration: underline;
+  font-weight: lighter;
+  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .schedule-section__list {
-    list-style: none;
+  list-style: none;
 }
 
 .schedule-section__list--items {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .schedule-section__names {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
 }
 
 .schedule-section__links {
-    color: black;
+  color: black;
 }
 
 /*------------------------------------------------------------------------------------*/
 
 /*Tablet*/
 @media (min-width: 1024px) and (max-width: 1366px) {
-    .schedule-section__title {
-        font-size: 2rem;
-    }
+  .schedule-section__title {
+    font-size: 2rem;
+  }
 
-    .schedule-section__list {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 0;
-    }
+  .schedule-section__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
 
-    .schedule-section__list--items {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        margin-top: 5%;
-    }
+  .schedule-section__list--items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5%;
+  }
 
-    .schedule-section__imgs {
-        width: 50%;
-    }
+  .schedule-section__imgs {
+    width: 50%;
+  }
 }
 
 /*----------------------------------------------------------------------------------*/
 
 /*Desktop*/
 @media (min-width: 1440px) {
-    main {
-        width: 50%;
-        margin: auto;
-    }
+  main {
+    width: 50%;
+    margin: auto;
+  }
 
-    .schedule-section__list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
+  .schedule-section__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
 
-    .schedule-section__list--items {
-        width: 30%;
-    }
+  .schedule-section__list--items {
+    width: 30%;
+  }
 
-    .schedule-section__imgs {
-        width: 70%;
-    }
+  .schedule-section__imgs {
+    width: 70%;
+  }
 }
